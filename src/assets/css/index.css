@@ -1,0 +1,39 @@
+.top-section {
+    /* background-color: rgb(56, 56, 56); */
+    height: 100vh !important;
+    width: 100%;
+}
+
+.arthurgg-title {
+    top: 30%;
+    left: 45%;
+    position: absolute;
+    color: #fff;
+}
+
+/* Cards */
+
+.arthur-gg-cards{
+    position: fixed;
+    top:70%;
+    left: 50%;
+    width: 1000px;
+    height: 512px;
+}
+
+.arthur-gg-cardbody{
+    position: absolute;
+}
+
+.arthur-gg-card{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all .2s ease-in-out;
+    margin-bottom: 0.7vh;
+    margin-right: 0.4vw;
+    display: inline-block;
+}
+
+.arthur-gg-card:hover{
+    transform: scale(1.1);
+}
+
